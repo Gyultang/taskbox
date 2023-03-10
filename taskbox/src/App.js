@@ -1,10 +1,5 @@
 import logo from './logo.svg';
 import './App.css';
-import './index.css';
-import store from './lib/store';
-import { Provider } from 'react-redux';
-import InboxScreen from './components/InboxScreen';
-
 
 function App() {
   return (
@@ -23,9 +18,6 @@ function App() {
           Learn React
         </a>
       </header>
-      <Provider store={store}>
-        <InboxScreen />
-      </Provider>
     </div>
   );
 }
