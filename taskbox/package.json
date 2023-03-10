@@ -29,7 +29,8 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "init-msw": "msw init public/",
-    "test-storybook": "test-storybook"
+    "test-storybook": "test-storybook",
+    "storybook-build": "build-storybook -c .storybook -o ./dist/my-component/storybook/"
   },
   "eslintConfig": {
     "extends": [
@@ -72,6 +73,7 @@
     "@storybook/react": "^6.5.7",
     "@storybook/testing-library": "^0.0.11",
     "babel-plugin-named-exports-order": "^0.0.2",
+    "chromatic": "^6.17.1",
     "msw": "^0.42.0",
     "msw-storybook-addon": "^1.6.3",
     "prop-types": "^15.8.1",

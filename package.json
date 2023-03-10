@@ -24,7 +24,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "test-storybook": "test-storybook"
+    "test-storybook": "test-storybook",
+    "storybook-build": "build-storybook -c .storybook -o ./dist/my-component/storybook/"
   },
   "eslintConfig": {
     "extends": [
@@ -45,6 +46,7 @@
     ]
   },
   "devDependencies": {
-    "@storybook/addon-storyshots": "^6.5.16"
+    "@storybook/addon-storyshots": "^6.5.16",
+    "chromatic": "^6.17.1"
   }
 }
